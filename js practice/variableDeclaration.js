@@ -18,14 +18,22 @@ console.log("num value:" +num)
 //let reassignment
 let empname="testing";
 empname=123;
-console.log("Empname datatype="+ empname)
+console.log("Empname datatype="+typeof empname)
 console.log("Empname value="+ empname)
 //let redeclaration
 //let empname=true;
 
 //const reassignment
 const final=33;
-final=true;
+//final=true;
 console.log("final="+final)
 //const redeclaration
 //const final=4;
+
+
+console.log(x);//undefined
+var x=10;
+console.log(x);
+
+console.log(y);//throws error
+let y=10;
